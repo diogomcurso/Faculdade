@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dados</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <p>Dados pessoais </p>
+            <label for="nome">Nome:&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="nome">
+            <label for="sobrenome">&nbsp;&nbsp;Sobrenome:&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="sobrenome">
+        <tr>
+            <td>
+                <br>
+                Nascimento:&nbsp;&nbsp;&nbsp; <input type="text" placeholder="dd" size="2">
+                <input type="text" placeholder="mm" size="3">
+                <input type="text" placeholder="yyyy" size="5">
+            </td>
+        </tr>
+        <tr>
+            <br>
+            <td>
+                <br>
+                RG:&nbsp;&nbsp; <input type="text" size="10">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                CPF: &nbsp;&nbsp;<input type="text" size="6 "> - <input type="text" size="1">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        Dados de Endereço
+        <tr>
+            <td>
+                <br>
+                Rua: <input type="text" size="10">&nbsp;&nbsp;
+                Numero: <input type="text" size="3" placeholder="N">
+            </td>
+        </tr>
+        <td>
+            <br>
+            Bairro:&nbsp; <input type="text" placeholder="Bairro">
+        </td>
+        <tr>
+            <td>
+                <br>
+                Estado: <select name="estado">
+                    <option value="estado">Selecione o Estado</option>
+                    <option value="pb">Paraíba</option>
+                    <option value="pr">Paraná</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="pi">Piauí</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                Cidade: <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                CEP: <input type="text" size="6"> - <input type="text" size="3">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        Dados de login
+        <tr>
+            <td>
+                <br>
+                E-mail:&nbsp;&nbsp; <input type="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                imagem de perfil: <select name="imagem">
+                    <option value="imagem "> selecione um arquivo</option> 
+                </select>
+                Nenhum arquivo selecionado
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                Login de Usuário: <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                Senha: <input type="text" size="4">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                Confirme a senha:&nbsp; <input type="text" size="4">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
