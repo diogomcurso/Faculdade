@@ -1,0 +1,51 @@
+# Faculdade
+minhas atvd
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+               1. CPF: 145.669.228-65
+            </td>
+        </tr>
+        <tr>
+            
+            <td>
+               2. Nome: Zoro
+            </td>
+        </tr>
+        <tr> 
+            <td>
+               3. Parentesco: Luffy
+            </td>
+        </tr>
+        <tr> 
+            <td>
+              4.  Idade: 20
+            </td>
+        </tr>
+        <tr> 
+            <td>
+               5. Cidade: Wano
+            </td>
+        </tr>
+        <tr> 
+            <td>
+                6. Rede social:<a href="https://www.instagram.com/reel/CxEQAOhuLHs/?utm_source=ig_web_button_share_sheet">
+                    Rede social</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
