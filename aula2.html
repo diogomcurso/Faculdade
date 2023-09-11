@@ -1,119 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dados</title>
+    <title>Exercicio2</title>
 </head>
 
 <body>
-    <table>
-        <tr>
-            <p>Dados pessoais </p>
-            <label for="nome">Nome:&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" id="nome">
-            <label for="sobrenome">&nbsp;&nbsp;Sobrenome:&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" id="sobrenome">
-        <tr>
-            <td>
-                <br>
-                Nascimento:&nbsp;&nbsp;&nbsp; <input type="text" placeholder="dd" size="2">
-                <input type="text" placeholder="mm" size="3">
-                <input type="text" placeholder="yyyy" size="5">
-            </td>
-        </tr>
-        <tr>
+    <fieldset style="border: px solid black; padding: 5px; margin: 5px;">
+            <legend><b>Dados pessoais</b></legend>
+        <br>
+        <form action="" method="post">
+            <div class="nome">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome">
+            </div>
             <br>
-            <td>
-                <br>
-                RG:&nbsp;&nbsp; <input type="text" size="10">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br>
-                CPF: &nbsp;&nbsp;<input type="text" size="6 "> - <input type="text" size="1">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <table>
-        Dados de Endereço
-        <tr>
-            <td>
-                <br>
-                Rua: <input type="text" size="10">&nbsp;&nbsp;
-                Numero: <input type="text" size="3" placeholder="N">
-            </td>
-        </tr>
-        <td>
+            <div class="nascimento">
+                <label for="nascimento">Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento">
+            </div>
             <br>
-            Bairro:&nbsp; <input type="text" placeholder="Bairro">
-        </td>
-        <tr>
-            <td>
-                <br>
-                Estado: <select name="estado">
-                    <option value="estado">Selecione o Estado</option>
-                    <option value="pb">Paraíba</option>
-                    <option value="pr">Paraná</option>
-                    <option value="pe">Pernambuco</option>
-                    <option value="pi">Piauí</option>
-                    <option value="rj">Rio de Janeiro</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br>
-                Cidade: <input type="text">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br>
-                CEP: <input type="text" size="6"> - <input type="text" size="3">
-            </td>
-        </tr>
-    </table>
-    <br>
-    <table>
-        Dados de login
-        <tr>
-            <td>
-                <br>
-                E-mail:&nbsp;&nbsp; <input type="email">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br>
-                imagem de perfil: <select name="imagem">
-                    <option value="imagem "> selecione um arquivo</option> 
-                </select>
-                Nenhum arquivo selecionado
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br>
-                Login de Usuário: <input type="text">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br>
-                Senha: <input type="text" size="4">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br>
-                Confirme a senha:&nbsp; <input type="text" size="4">
-            </td>
-        </tr>
-    </table>
-</body>
+            <div class="rg">
+                <label for="RG">RG:</label>
+                <input type="number" id="RG" name="RG">
+            </div>
+            <br>
+            <div class="cpf">
+                <label for="cpf">CPF:</label>
+                <input type="number" id="cpf1" name="cpf" style="width: 80px;"> -
+                <input type="number" id="cpf2" name="cpf" style="width: 50px;">
 
+            </div>
+        </form>
+    </fieldset> 
+
+    <br>
+
+    <fieldset style="border: px solid black; padding: 5px; margin: 5px;">
+        <legend><b>Dados de Endereço</b></legend>
+        <br>
+        <form action="" method="post">
+            <div class="rua">
+                <label for="rua">Rua:</label>
+                <input type="text" id="Rua" name="Rua">
+                <label for="numero">Numero:</label>
+                <input type="number" id="numero" name="numero">
+            </div>
+            <br>
+            <div class="bairro">
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="Bairro" name="Bairro">
+            </div>
+            <br>
+            <div class="estado">
+                <label for="estado">Estado:
+                <select id="estado" name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select>
+                </label>
+            </div>
+            <br>
+            <div class="cidade">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+            </div>
+            <br>
+            <div class="cep">
+                <label for="cep">CEP:</label>
+                <input type="number" id="cep1" name="cep1" style="width: 80px;"> -
+                <input type="number" id="cep2" name="cep2" style="width: 30px;">    
+            </div>
+        </form>    
+    </fieldset>  
+
+    <br>
+
+    <fieldset style="border: px solid black; padding: 5px; margin: 5px;">
+        <legend><b>Dados de Login</b></legend>
+        <br>
+        <form action="" method="post">
+            <div class="e-mail">
+                <label for="e-mail">E-mail:</label>
+                <input type="text" id="E-mail" name="E-mail">
+            </div>
+            <br>
+            <div class="Imagem">
+                <label for="imagem">Imagem de perfil: <button>Escolher arquivo</button> Nenhum arquivo selecionado</label>
+            </div>
+            <br>
+            <div class="login">
+                <label for="login">Login de usuário:</label>
+                <input type="text" id="login" name="login">
+            </div>
+            <br>
+            <div class="senha">
+                <label for="senha">Senha:</label>
+                <input type="number" id="senha" name="senha">
+            </div>
+            <br>
+            <div class="confirmar">
+                <label for="confirmar">Confirmar senha:</label>
+                <input type="number" id="confirmar" name="confirmar">
+            </div>
+        </form>
+    </fieldset>
+
+    <button>Enviar</button>
+    <button>Limpar</button>
+
+</body>
 </html>
