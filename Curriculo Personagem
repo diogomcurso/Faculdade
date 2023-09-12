@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currículo</title>
+</head>
+
+<body>
+    <div><img src="https://pbs.twimg.com/profile_images/1316149003801763841/r2c3E5lD_400x400.jpg" alt="r2c3E5lD_400x400.jpg" width="180">
+    </div>
+    <table>
+        <tr>
+            <td>
+                <h1>
+                    Nome: Zoro zika
+                </h1>
+            </td>
+
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <ul>
+                    <li>zorobaladinha123@gmail.com </li>
+                    <br />
+                    <li> Wano-Pe 57899-560</li>
+                    <br>
+                    <li>
+                        Numero: (81) 98900-0089
+                    </li>
+                </ul>
+            </tr>
+<tr>
+        </thead>
+        <p>
+        <h1>Experiências</h1>
+        </p>
+        <table>
+            <ul>
+                <li> lutar com espadas</li>
+                <li> mestrado em espadas</li>
+                <li>karater kid avançado</li>
+            </ul>
+        </table>
+<a href="https://pt-br.facebook.com/people/Zoro-Brozovich/pfbid0VDJ6grRe8bwNFeCpPTocEqS5KV3ePMU68r3yxY1Ck9FCjiuF6iZt5wtWs4BhkrPel/"> Rede social</a>
+</body>
+
+</html>
