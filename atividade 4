@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+</head>
+
+<body>
+    <h2>
+        To do List
+    </h2>
+    <fieldset>
+        <legend> Lista to do </legend>
+        <input type="checkbox">
+        já comeu?
+        <br>
+        <input type="checkbox">
+        já fez atividade física?
+        <br>
+        <input type="checkbox">
+        Já bebeu água?
+        <br>
+        <div><input type="checkbox">
+            já estudou?
+            <br>
+            <input type="checkbox">
+            já ouviu Musica?
+            <br>
+            <input type="checkbox">
+            já jogou?
+            <br>
+
+            <input type="checkbox">
+            ----------------------------
+            <br>
+
+            <input type="checkbox">
+            -------------------
+
+        </div>
+
+
+    </fieldset>
+</body>
+
+</html>
