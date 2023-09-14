@@ -10,3 +10,69 @@ public class ContaPoupanca extends ContaBancaria {
 	}
 
 }
+
+
+
+
+
+
+package java.lang;
+
+public class ContaBancaria {
+	private String nomeCliente;
+	private String numConta;
+	private double saldo;
+	
+	private String getNomeCliente() {
+		return nomeCliente;
+	}
+	private void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+
+	private int getNumConta() {
+		return numConta;
+	}
+	private void setNumConta(int numConta) {
+		this.numConta = numConta;
+	}
+	private int getSaldo() {
+		return saldo;
+	}
+	private void setSaldo(int saldo) {
+		this.saldo = saldo;
+	}
+	
+	
+	private Double sacar(double valor){
+		
+	}
+	
+	private void depositar(){
+		this.saldo();
+		
+	}
+	
+	
+	
+	
+	
+
+}
+
+
+
+
+
+
+
+
+package java.lang;
+
+public class ContaEspecial extends ContaBancaria{
+	private int limite;
+	private Double sacar(){
+		
+	}
+
+}
