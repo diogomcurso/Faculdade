@@ -5,20 +5,28 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <img src="https://cdn-icons-png.flaticon.com/512/3976/3976419.png" width="200px
     "  alt="">
+    <style>
+        body{
+            background-color: yellow;
+        }
+        h1{
+            font-size: "40px";
+        }
+    </style>
     <title>Document</title>
 </head>
-<body style="background-color: yellow;">
-    <h1 style="font-size: 40px;" >atividade da calculadora</h1>
+<body>
+    <h1>atividade da calculadora</h1>
     primeiro numero
     <input  id= "n1"type="number">
     <br/>
  segundo numero:
     <input id="n2" type="number">
     <br/>
-    <button onclick="somar()"> somar</button>
-    <button onclick="subtrair()">subtrair</button>
-    <button onclick="dividir()">dividir</button>
-    <button onclick="mutiplcar()">mutiplicar</button>
+    <button style="background-color: red;" onclick="somar()"> somar</button>
+    <button style="background-color: rgb(197, 158, 235);" onclick="subtrair()">subtrair</button>
+    <button style="background-color: violet;" onclick="dividir()">dividir</button>
+    <button style="background-color: chocolate;" onclick="mutiplcar()">mutiplicar</button>
 <br/><br/>
 o resultado é:  <span></span>
 
@@ -42,3 +50,4 @@ o resultado é:  <span></span>
 </script>
 
 </body>
+</html>
