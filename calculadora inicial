@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <img src="https://cdn-icons-png.flaticon.com/512/3976/3976419.png" width="200px
+    "  alt="">
+    <title>Document</title>
+</head>
+<body style="background-color: yellow;">
+    <h1 style="font-size: 40px;" >atividade da calculadora</h1>
+    primeiro numero
+    <input  id= "n1"type="number">
+    <br/>
+ segundo numero:
+    <input id="n2" type="number">
+    <br/>
+    <button onclick="somar()"> somar</button>
+    <button onclick="subtrair()">subtrair</button>
+    <button onclick="dividir()">dividir</button>
+    <button onclick="mutiplcar()">mutiplicar</button>
+<br/><br/>
+o resultado é:  <span></span>
+
+<script>
+    var n1= document.querySelector('#n1')
+    var n2= document.querySelector('#n2')
+    var resultado = document.querySelector('span')
+
+    function somar(){
+        resultado.innerHTML= parseInt(n1.value) + parseInt(n2.value)
+    }
+    function subtrair(){
+        resultado.innerHTML= parseInt(n1.value) - parseInt(n2.value)
+    }
+    function dividir(){
+        resultado.innerHTML= parseInt(n1.value) / parseInt(n2.value)
+    }
+    function mutiplcar(){
+        resultado.innerHTML= parseInt(n1.value) * parseInt(n2.value)
+    }
+</script>
+
+</body>
